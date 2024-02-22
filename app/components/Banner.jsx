@@ -3,7 +3,7 @@ import { Button, Carousel, Typography } from "@material-tailwind/react";
 
 export function Banner() {
   return (
-    <div className="relative h-full w-full">
+    <div className="relative h-[500px] w-full">
       <Carousel
         transition={{ duration: 1 }}
         autoplay={true}
@@ -26,6 +26,7 @@ export function Banner() {
           className="h-full w-full object-cover"
         />
       </Carousel>
+
       <div className="absolute inset-0 grid h-full w-full place-items-center bg-black/75">
         <div className="w-3/4 text-center md:w-2/4">
           <Typography
