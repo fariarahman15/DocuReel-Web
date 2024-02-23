@@ -1,10 +1,10 @@
 import "@fortawesome/fontawesome-svg-core/styles.css"; // Import Font Awesome styles
 
 import { Banner } from "./components/Banner";
-import { NavbarSimple } from "./components/Navbar";
-import { Service } from "./components/service";
 import { Footer } from "./components/Footer";
+import { NavbarSimple } from "./components/Navbar";
 import { Contact } from "./components/contact";
+import { Service } from "./components/service";
 
 export default function Home() {
   return (
@@ -15,7 +15,7 @@ export default function Home() {
       <main>
         <Service />
 
-        {/* <section class="relative py-20">
+        <section class="relative py-20">
           <div class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-[80px]">
             <svg
               class="absolute bottom-0 overflow-hidden"
@@ -324,10 +324,10 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </section> */}
+        </section>
       </main>
 
-      {/* <Contact /> */}
+      <Contact />
 
       <Footer />
     </div>
