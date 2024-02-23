@@ -1,5 +1,5 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faFacebookSquare, faTwitter } from "@fortawesome/free-brands-svg-icons"
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+// import { faFacebookSquare, faTwitter } from "@fortawesome/free-brands-svg-icons"
 export function Footer() {
   return (
     <footer className="relative bg-gray-300 pt-8 pb-6">
@@ -31,16 +31,16 @@ export function Footer() {
                 className="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
                 type="button"
               >
-                <FontAwesomeIcon icon={faTwitter} className="text-blue-400" />
+                {/* <FontAwesomeIcon icon={faTwitter} className="text-blue-400" /> */}
               </button>
               <button
                 className="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
                 type="button"
               >
-                <FontAwesomeIcon
+                {/* <FontAwesomeIcon
                   icon={faFacebookSquare}
                   className="text-blue-600"
-                />
+                /> */}
               </button>
               {/* <button
                 className="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
@@ -156,5 +156,5 @@ export function Footer() {
         </div>
       </div>
     </footer>
-  )
+  );
 }
