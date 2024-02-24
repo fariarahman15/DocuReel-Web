@@ -1,15 +1,16 @@
 import "@fortawesome/fontawesome-svg-core/styles.css"; // Import Font Awesome styles
 
-import { Banner } from "./components/Banner";
+import { Banner } from "./components/Banner/page";
 import { Footer } from "./components/Footer";
-import { NavbarSimple } from "./components/Navbar";
+import { Nav } from "./components/Navbar/page";
 import { Contact } from "./components/contact";
 import { Service } from "./components/service";
 
 export default function Home() {
   return (
     <div>
-      <NavbarSimple />
+      <Nav />
+
       <Banner />
 
       <main>
@@ -75,7 +76,9 @@ export default function Home() {
                           </span>
                         </div>
                         <div>
-                          <h4 className="text-gray-600">Amazing page examples</h4>
+                          <h4 className="text-gray-600">
+                            Amazing page examples
+                          </h4>
                         </div>
                       </div>
                     </li>
