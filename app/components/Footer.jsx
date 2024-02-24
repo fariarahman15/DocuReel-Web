@@ -1,8 +1,15 @@
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-// import { faFacebookSquare, faTwitter } from "@fortawesome/free-brands-svg-icons"
+import {
+  faEnvelope,
+  faFacebookSquare,
+  faLocationDot,
+  faSquareInstagram,
+  faSquarePhone,
+} from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 export function Footer() {
   return (
-    <footer className="relative bg-gray-300 pt-8 pb-6">
+    <footer className="relative bg-gray-300 pt-8 pb-3">
       <div className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-[80px]">
         <svg
           className="absolute bottom-0 overflow-hidden"
@@ -22,38 +29,67 @@ export function Footer() {
       <div className="container mx-auto px-4">
         <div className="flex flex-wrap">
           <div className="w-full lg:w-6/12 px-4">
-            <h4 className="text-3xl font-semibold">Let's keep in touch!</h4>
-            <h5 className="text-lg mt-0 mb-2 text-gray-700">
-              Find us on any of these platforms, we respond 1-2 business days.
-            </h5>
-            <div className="mt-6">
-              <button
-                className="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-                type="button"
-              >
-                {/* <FontAwesomeIcon icon={faTwitter} className="text-blue-400" /> */}
-              </button>
-              <button
-                className="bg-white text-blue-600 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-                type="button"
-              >
-                {/* <FontAwesomeIcon
-                  icon={faFacebookSquare}
-                  className="text-blue-600"
-                /> */}
-              </button>
-              {/* <button
-                className="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-                type="button"
-              >
-                <i className="flex fab fa-dribbble"></i>
-              </button>
-              <button
-                className="bg-white text-gray-900 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
-                type="button"
-              >
-                <i className="flex fab fa-github"></i>
-              </button> */}
+            <h4 className="text-3xl font-semibold">DocuReel</h4>
+            <div className=" text-gray-700 font-normal text-sm items-center justify-center align-center ">
+              <p>
+                <FontAwesomeIcon
+                  icon={faLocationDot}
+                  className="text-gray-800"
+                />
+                <span className="pl-1 ">
+                  Sonkor Bus Stop, Dhanmondi, Dhaka 1209 Dhaka, Dhaka Division,
+                  Bangladesh.
+                </span>
+              </p>
+            </div>
+
+            <div className="mt-3">
+              <h5 className="text-sm mt-0 mb-1 text-gray-700">
+                Find us on any of these platforms, we respond 1-2 business days.
+              </h5>
+              <div className=" text-gray-700 font-normal text-sm items-center justify-center align-center ">
+                <a>
+                  <FontAwesomeIcon
+                    icon={faSquarePhone}
+                    className="text-gray-800"
+                  />
+
+                  <span className="pl-1 ">01603-895803</span>
+                </a>
+              </div>
+              <div className=" text-gray-700 font-normal text-sm items-center justify-center align-center ">
+                <a href="mailto:docureel@gmail.com">
+                  <FontAwesomeIcon
+                    icon={faEnvelope}
+                    className="text-gray-800"
+                  />
+                  <span className="pl-1 hover:underline">
+                    docureel@gmail.com
+                  </span>
+                </a>
+              </div>
+
+              <div className=" text-gray-700 font-normal text-sm items-center justify-center align-center ">
+                <a href="https://www.facebook.com/docureelBD">
+                  {" "}
+                  <FontAwesomeIcon
+                    icon={faFacebookSquare}
+                    className="text-gray-800"
+                  />
+                  <span className="pl-1 hover:underline">DocuReel</span>
+                </a>
+              </div>
+
+              <div className=" text-gray-700 font-normal text-sm items-center justify-center align-center ">
+                <a href="https://www.instagram.com/docureel">
+                  {" "}
+                  <FontAwesomeIcon
+                    icon={faSquareInstagram}
+                    className="text-gray-800"
+                  />
+                  <span className="pl-1 hover:underline">DocuReel</span>
+                </a>
+              </div>
             </div>
           </div>
           <div className="w-full lg:w-6/12 px-4">
@@ -74,25 +110,9 @@ export function Footer() {
                   <li>
                     <a
                       className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                      href="https://blog.creative-tim.com"
+                      href="https://creative-tim.com/contact-us"
                     >
-                      Blog
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                      href="https://www.github.com/creativetimofficial"
-                    >
-                      Github
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                      href="https://www.creative-tim.com/bootstrap-themes/free"
-                    >
-                      Free Products
+                      Contact Us
                     </a>
                   </li>
                 </ul>
@@ -102,14 +122,6 @@ export function Footer() {
                   Other Resources
                 </span>
                 <ul className="list-unstyled">
-                  <li>
-                    <a
-                      className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                      href="https://github.com/creativetimofficial/argon-design-system/blob/master/LICENSE.md"
-                    >
-                      MIT License
-                    </a>
-                  </li>
                   <li>
                     <a
                       className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
@@ -126,31 +138,19 @@ export function Footer() {
                       Privacy Policy
                     </a>
                   </li>
-                  <li>
-                    <a
-                      className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                      href="https://creative-tim.com/contact-us"
-                    >
-                      Contact Us
-                    </a>
-                  </li>
                 </ul>
               </div>
             </div>
           </div>
         </div>
-        <hr className="my-6 border-gray-400" />
+        <hr className="my-3 border-gray-400" />
         <div className="flex flex-wrap items-center md:justify-between justify-center">
           <div className="w-full md:w-4/12 px-4 mx-auto text-center">
             <div className="text-sm text-gray-600 font-semibold py-1">
-              Copyright © 2019 Tailwind Starter Kit by
-              <a
-                href="https://www.creative-tim.com"
-                className="text-gray-600 hover:text-gray-900"
-              >
-                Creative Tim
+              Copyright © 2019 All Rights Reserved by
+              <a href="/" className="text-gray-600 hover:text-gray-900 pl-1">
+                DocuReel
               </a>
-              .
             </div>
           </div>
         </div>
