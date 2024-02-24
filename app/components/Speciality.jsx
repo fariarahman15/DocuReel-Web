@@ -35,8 +35,8 @@ export function Speciality() {
             </div>
             <h6 className="text-xl mt-5 font-semibold ">Excelent Services</h6>
             <p className="mt-2 mb-4 text-gray-500">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              {`Some quick example text to build on the card title and make up the
+              bulk of the card's content.`}
             </p>
           </div>
           <div className="w-full lg:w-3/12 px-4 text-center">
@@ -47,8 +47,8 @@ export function Speciality() {
               Customisable Packages
             </h5>
             <p className="mt-2 mb-4 text-gray-500">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              {`Some quick example text to build on the card title and make up the
+              bulk of the card's content.`}
             </p>
           </div>
           <div className="w-full lg:w-3/12 px-4 text-center">
@@ -57,8 +57,8 @@ export function Speciality() {
             </div>
             <h5 className="text-xl mt-5 font-semibold ">Faster Delivery</h5>
             <p className="mt-2 mb-4 text-gray-500">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              {`Some quick example text to build on the card title and make up the
+              bulk of the card's content.`}
             </p>
           </div>
         </div>

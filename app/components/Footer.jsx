@@ -1,10 +1,8 @@
 import {
-  faEnvelope,
   faFacebookSquare,
-  faLocationDot,
   faSquareInstagram,
-  faSquarePhone,
 } from "@fortawesome/free-brands-svg-icons";
+import { faLocationDot, faEnvelope, faSquarePhone } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export function Footer() {
