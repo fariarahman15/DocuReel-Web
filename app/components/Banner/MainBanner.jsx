@@ -33,18 +33,8 @@ export function MainBanner() {
           className="w-full h-full object-cover"
         />
 
-        <div className="absolute inset-0 grid  w-full place-items-center bg-black/60">
+        <div className="absolute inset-0 grid  w-full place-items-center bg-black/30">
           <div className="w-3/4 text-center md:w-2/4">
-            <Typography variant="h1" color="white" className="mb-4 ">
-              DocuReel
-            </Typography>
-
-            <Typography variant="h6" color="white" className="mb-2 opacity-80">
-              Documentary helps to grow; reels helps to carry memories.
-              <br />
-              We are the team that helps you to grow with memories.
-            </Typography>
-
             {/* {showScrollDiv && (
               <div className="mt-20 ">
                 <Typography variant="h5" color="white">

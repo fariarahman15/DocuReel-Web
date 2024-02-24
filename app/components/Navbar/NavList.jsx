@@ -1,4 +1,4 @@
-import menuData from "@/app/components/Navbar/menuData";
+import menuData from "@/app/lib/menuData";
 import Link from "next/link";
 
 function NavList() {

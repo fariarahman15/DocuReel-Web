@@ -1,7 +1,9 @@
+import Video from "next-video";
+
 export function VideoBanner() {
   return (
     <div className="h-[800px] relative">
-      <div className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-6 h-[80px] ">
+      <div className="bottom-auto top-0 left-0 right-0 w-full lg:absolute pointer-events-none overflow-hidden -mt-6 h-[80px] ">
         <svg
           className="absolute bottom-0 overflow-hidden "
           xmlns="http://www.w3.org/2000/svg"
@@ -18,7 +20,7 @@ export function VideoBanner() {
         </svg>
       </div>
 
-      <video
+      <Video
         src={"/resources/videos/video_2.mp4"}
         autoPlay
         muted

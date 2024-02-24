@@ -18,19 +18,19 @@ const menuData = [
     newTab: false,
   },
   {
-    id: 3,
+    id: 4,
     title: "Albums",
     path: "/albums",
     newTab: false,
   },
   {
-    id: 4,
+    id: 5,
     title: "Packages",
     path: "/packages",
     newTab: false,
   },
   {
-    id: 5,
+    id: 6,
     title: "Contact Us",
     path: "/contact",
     newTab: false,
