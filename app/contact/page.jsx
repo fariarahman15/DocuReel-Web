@@ -7,7 +7,7 @@ const packages = [
   "/resources/package/4.jpg",
 ];
 
-export default function Albums() {
+export default function Contact() {
   return (
     <div>
       <div className="py-20 bg-gray-800 text-white">
