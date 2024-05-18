@@ -3,9 +3,15 @@
 import Thumbnail from "./Cards/Thumbnail";
 
 const recentWorksList = [
-  { image: "/resources/images/KM_05670.jpg", title: "Joy X Roza" },
-  { image: "/resources/images/KM_05670.jpg", title: "Another Title" },
-  { image: "/resources/images/KM_05670.jpg", title: "Third Title" },
+  {
+    image: "/resources/albums/rinta-hira/rinta-hira-5.jpg",
+    title: "Rinta X Hira",
+  },
+  { image: "/resources/albums/joy-roza/joy-roza-4.jpg", title: "Joy X Roza" },
+  {
+    image: "/resources/albums/tamim-sadia/tamim-sadia-30.jpg",
+    title: "Tamim X Sadia",
+  },
 ];
 
 export function RecentWorks() {
@@ -24,6 +30,7 @@ export function RecentWorks() {
             </div>
           ))}
         </div>
+
         <h3 className="-mt-5 text-black text-center text-2xl font-bold ">
           Recent Works
         </h3>
