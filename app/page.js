@@ -5,10 +5,8 @@ import { VideoBanner } from "./components/Banner/VideoBanner";
 
 import { PhotoGrid } from "./components/PhotoGrid/photoGrid";
 import { RecentWorks } from "./components/RecentWorks";
-import { Reviews } from "./components/Reviews/Reviews";
 import { Cinematography } from "./components/Services/Cinematography";
 import { Photography } from "./components/Services/Photography";
-import { Speciality } from "./components/Speciality";
 
 export default function Home() {
   return (
@@ -17,7 +15,7 @@ export default function Home() {
 
       <RecentWorks />
 
-      <Speciality />
+      {/* <Speciality /> */}
 
       <VideoBanner />
 
@@ -27,7 +25,7 @@ export default function Home() {
 
       <PhotoGrid />
 
-      <Reviews />
+      {/* <Reviews /> */}
 
       {/* <Contact /> */}
     </>

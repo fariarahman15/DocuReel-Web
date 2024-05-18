@@ -47,7 +47,7 @@ export function Nav() {
       <div className="mx-auto max-w-screen-xl flex items-center justify-between text-white">
         <Typography
           as="a"
-          href="#"
+          href="/"
           variant="h6"
           className="mr-4 cursor-pointer py-1.5"
         >
