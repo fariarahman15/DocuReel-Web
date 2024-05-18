@@ -6,8 +6,8 @@ export function Cinematography() {
           Cinematography
         </h3>
         <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-gray-700">
-          Don't let your uses guess by attaching tooltips and popoves to any
-          element. Just make sure you enable them first via JavaScript.
+         {` Don't let your uses guess by attaching tooltips and popoves to any
+          element. Just make sure you enable them first via JavaScript.`}
         </p>
       </div>
       <div class="container mx-auto lg:px-20 py-2 lg:pr-20 lg:py-16 ">
