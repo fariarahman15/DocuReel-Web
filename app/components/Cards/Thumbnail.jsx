@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Thumbnail = ({ image, title }) => {
   return (
-    <div className="relative bg-white p-4 rounded-lg shadow-lg mb-8 w-full">
+    <div className="relative bg-white p-4 rounded-lg shadow-lg mb-8 w-full cursor-pointer">
       <div className="overflow-hidden w-full min-h-[200px] max-h-min relative">
         <Image src={image} alt="thumbnail" fill />
       </div>

@@ -8,6 +8,8 @@ import {
   faSquarePhone,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Link from "next/link";
+
 
 export function Footer() {
   return (
@@ -17,16 +19,16 @@ export function Footer() {
           <div className="w-full lg:w-6/12 px-4">
             <h4 className="text-3xl font-semibold">DocuReel</h4>
             <div className=" text-gray-700 font-normal text-sm items-center justify-center align-center ">
-              <p>
+              <div className="flex">
                 <FontAwesomeIcon
                   icon={faLocationDot}
-                  className="text-gray-800"
+                  className="text-gray-800 pt-1"
                 />
-                <span className="pl-1 ">
-                  Sonkor Bus Stop, Dhanmondi, Dhaka 1209 Dhaka, Dhaka Division,
-                  Bangladesh.
-                </span>
-              </p>
+                <p className="pl-1 ">
+                  Sonkor Bus Stop, Dhanmondi <br />Dhaka 1209,
+                  Bangladesh
+                </p>
+              </div>
             </div>
 
             <div className="mt-3">
@@ -86,17 +88,18 @@ export function Footer() {
                 </span>
                 <ul className="list-unstyled">
                   <li>
-                    <a
+                    <Link href="/about">
+                    <p
                       className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                      href="https://www.creative-tim.com/presentation"
                     >
                       About Us
-                    </a>
+                    </p>
+                    </Link>
                   </li>
                   <li>
                     <a
                       className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                      href="https://creative-tim.com/contact-us"
+                      href="/"
                     >
                       Contact Us
                     </a>
@@ -104,7 +107,7 @@ export function Footer() {
                   <li>
                     <a
                       className="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                      href="https://creative-tim.com/terms"
+                      href="/"
                     >
                       Terms &amp; Conditions
                     </a>
@@ -141,7 +144,7 @@ export function Footer() {
         <div className="flex flex-wrap items-center md:justify-between justify-center">
           <div className="w-full md:w-4/12 px-4 mx-auto text-center">
             <div className="text-sm text-gray-600 font-semibold py-1">
-              Copyright © 2019 All Rights Reserved by
+              Copyright © 2024 All Rights Reserved by
               <a href="/" className="text-gray-600 hover:text-gray-900 pl-1">
                 DocuReel
               </a>

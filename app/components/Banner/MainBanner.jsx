@@ -1,26 +1,26 @@
-"use client";
-import { Button, Typography } from "@material-tailwind/react";
-import { useEffect, useState } from "react";
+"use client"
+import { Button, Typography } from "@material-tailwind/react"
+import { useEffect, useState } from "react"
 
 export function MainBanner() {
-  const [showScrollDiv, setShowScrollDiv] = useState(false);
+  const [showScrollDiv, setShowScrollDiv] = useState(false)
 
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 100) {
         // Change 100 to the desired scroll position
-        setShowScrollDiv(true);
+        setShowScrollDiv(true)
       } else {
-        setShowScrollDiv(false);
+        setShowScrollDiv(false)
       }
-    };
+    }
 
-    window.addEventListener("scroll", handleScroll);
+    window.addEventListener("scroll", handleScroll)
 
     return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+      window.removeEventListener("scroll", handleScroll)
+    }
+  }, [])
 
   {
     return (
@@ -64,7 +64,21 @@ export function MainBanner() {
             )} */}
 
             <div className="mt-20 ">
-              <Typography variant="h5" color="white">
+              <Typography variant="h4" color="white">
+                Documentary helps to grow; reels helps to carry memories. <br />
+                We are the team that helps you to grow with memories.
+              </Typography>
+              <Button
+                size="sm"
+                color="white"
+                variant="gradient"
+                className="mt-4"
+                // variant={selectedLocation === "europe" ? "gradient" : "text"}
+                // onClick={() => handleLocationChange("europe")}
+              >
+                Contact Us
+              </Button>
+              {/* <Typography variant="h5" color="white">
                 Choose Your Location
               </Typography>
               <div className="flex justify-center gap-2 mt-2">
@@ -85,13 +99,13 @@ export function MainBanner() {
                 >
                   Europe
                 </Button>
-              </div>
+              </div> */}
             </div>
 
             {/* <SearchSection /> */}
           </div>
         </div>
       </div>
-    );
+    )
   }
 }

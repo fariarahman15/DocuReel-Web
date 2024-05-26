@@ -22,7 +22,7 @@ export function RecentWorks() {
           {recentWorksList.map((item, index) => (
             <div
               key={index}
-              className={`w-full md:w-4/12 px-4 text-center ${
+              className={`w-full md:w-4/12 px-4 text-center cursor-pointer ${
                 index === 1 ? "lg:pt-6" : "lg:pt-12"
               }`}
             >
